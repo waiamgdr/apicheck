@@ -2,7 +2,7 @@ import axios from 'axios';
 import './App.css';
 import { useEffect, useState } from 'react';
 
-function UserList() {
+function User() {
 
     const [listOfUSer, setList] = useState([])
     // Utilisation axios pour obtenir des données de  l'API jsonplaceholder à l'intérieur des hooks useEffect
@@ -81,4 +81,4 @@ function UserList() {
     );
   }
   
-  export default UserList;
+  export default User;
